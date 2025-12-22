@@ -1,0 +1,85 @@
+/* Wrapper */
+.users {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #111827, #0b1020);
+  box-shadow: 0 25px 60px rgba(0,0,0,.45);
+  color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Title */
+.users-title {
+  margin: 0 0 20px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+/* Buttons container */
+.users-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* Buttons */
+.users-btn {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: rgba(255,255,255,.06);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+
+.users-btn:hover {
+  background: linear-gradient(135deg, #7c5cff, #22d3ee);
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(124,92,255,.35);
+}
+
+.users-btn:active {
+  transform: translateY(0);
+}
+
+/* Users list */
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* User item */
+.users-item {
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+  font-size: 15px;
+  transition: all .15s ease;
+}
+
+.users-item:hover {
+  background: rgba(255,255,255,.12);
+  transform: translateX(4px);
+  border-color: rgba(255,255,255,.25);
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .users {
+    margin: 40px 16px;
+  }
+
+  .users-actions {
+    flex-direction: column;
+  }
+}

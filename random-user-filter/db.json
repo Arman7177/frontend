@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id" : 101, 
+            "name" : "Arman",
+            "age" : 25,
+            "gender" : "male"
+        },
+         {
+            "id" : 102, 
+            "name" : "Anna",
+            "age" : 28,
+            "gender" : "female"
+        },
+         {
+            "id" : 103, 
+            "name" : "Artak",
+            "age" : 15,
+            "gender" : "male"
+        },
+        {
+            "id" : 104, 
+            "name" : "Anahit",
+            "age" : 22,
+            "gender" : "female"
+        }
+    ]
+}
